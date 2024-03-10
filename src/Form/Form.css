@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    padding: 100px;
+    gap: 32px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+}
