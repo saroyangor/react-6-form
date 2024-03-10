@@ -18,3 +18,22 @@ button {
     width: 100%;
     padding: 16px;
 }
+
+small, .error {
+    color: red;
+}
+
+.error {
+    border-color: red;
+}
+
+.password {
+    position: relative;
+
+    & .fa-eye, & .fa-eye-slash {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+}
